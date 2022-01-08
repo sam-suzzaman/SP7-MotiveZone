@@ -1,0 +1,957 @@
+/* =============================
+        1.ALL FONTS
+================================*/
+/* HelveticaNeue REGULAR=400 font */
+@font-face {
+    font-family: 'HelveticaNeueRegular';
+    src: url('../fonts/HelveticaNeue/HelveticaNeueRegular.eot'),
+        url('../fonts/HelveticaNeue/HelveticaNeueRegular.ttf') format('truetype'),
+        url('../fonts/HelveticaNeue/HelveticaNeueRegular.woff') format('woff');
+}
+
+/* HelveticaNeue MEDIUM=500 font */
+@font-face {
+    font-family: 'HelveticaNeueMedium';
+    src: url('../fonts/HelveticaNeue/HelveticaNeueMedium.eot'),
+        url('../fonts/HelveticaNeue/HelveticaNeueMedium.ttf') format('truetype'),
+        url('../fonts/HelveticaNeue/HelveticaNeueMedium.woff') format('woff');
+}
+
+/* HelveticaNeue BOLD=700 font */
+@font-face {
+    font-family: 'HelveticaNeueBold';
+    src: url('../fonts/HelveticaNeue/HelveticaNeuBold.eot'),
+        url('../fonts/HelveticaNeue/HelveticaNeue.ttf') format('truetype'),
+        url('../fonts/HelveticaNeue/HelveticaNeueBold.woff') format('woff');
+}
+
+
+
+/* =============================
+        2.COMMON CSS CODES
+================================*/
+
+/* =====  heading styles  ===== */
+.h-3 {
+    font-family: HelveticaNeueBold;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.h-4 {
+    font-size: 20px;
+    font-family: 'HelveticaNeueMedium';
+}
+
+/* =====  paragraph styles  ===== */
+.p-1 {
+    font-family: HelveticaNeueRegular;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* =====  button style  ===== */
+.button-1 {
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 5px;
+    background-color: #FF9C00;
+    transition: .3s ease;
+    outline: none;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.button-1:hover {
+    background-color: transparent;
+    border: 1px solid #FF9C00;
+}
+
+
+/* =====  menu basic style  ===== */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* ===== group selector codes ===== */
+.m-links,
+.link,
+.button-1,
+.h-4 {
+    font-family: HelveticaNeueMedium;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.h-4 {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+/* =============================
+        4.HEADING CSS CODES
+================================*/
+.header-bg {
+    background: url(../media/header-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ==codes of hamberger icon and button== */
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    height: 53px;
+}
+
+.brand-title {
+    width: 20%;
+}
+
+.brand-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 0;
+}
+
+.navbar-links {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-links ul {
+    width: 80%;
+    justify-content: center;
+}
+
+.navbar-links .navbar-button {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-links .navbar-button .button-1 {
+    padding: 5px 40px;
+    letter-spacing: 1px;
+    transition: .3s ease;
+}
+
+
+.navbar-links li a {
+    color: #fff;
+    padding: 10px 20px;
+    transition: .3s ease;
+}
+
+.navbar-links li:hover a {
+    color: #FF9C00;
+}
+
+
+.toggle-button {
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: rgb(232, 19, 19);
+    border-radius: 10px;
+}
+
+
+
+
+/* =============================
+        5.HERO CSS CODES
+================================*/
+.hero-wrapper {
+    color: #fff;
+}
+
+.hero-wrapper .hero-text-content {
+    padding-top: 45.372%;
+    padding-bottom: 64.075%;
+}
+
+
+.hero-wrapper .hero-text-content .hero-heading {
+    font-family: 'HelveticaNeueBold';
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.hero-wrapper .hero-text-content .p-1 {
+    margin-bottom: 45px;
+}
+
+.hero-wrapper .hero-text-content .hero-button .button-1 {
+    width: 136px;
+    height: 48px;
+}
+
+.hero-wrapper .pt-108 {
+    padding-top: 9.474%;
+}
+
+
+
+/* =============================
+    6.OUR SERVICES CSS CODES
+================================*/
+#services {
+    margin: 95px 0 120px;
+}
+
+#services .s-header .h-3 {
+    margin-bottom: 1.25rem;
+}
+
+
+#services .cards-wrapper {
+    margin-top: 3.46875rem;
+}
+
+
+#services .cards-wrapper .card-icon {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #FFFAF1;
+    margin-bottom: 1.125rem;
+}
+
+#services .cards-wrapper .card-icon img {
+    padding: 26px 26px;
+}
+
+#services .cards-wrapper .p-1 {
+    margin-bottom: 1.1875rem;
+    text-align: justify;
+}
+
+
+/*  section's margin & padding classes */
+#services .cards-wrapper .mr-48 {
+    margin-right: 3rem;
+}
+
+#services .cards-wrapper .ml-48 {
+    margin-left: 3rem;
+}
+
+#services .cards-wrapper .ml-24 {
+    margin-left: 1.5rem;
+}
+
+#services .cards-wrapper .mr-24 {
+    margin-right: 1.5rem;
+}
+
+
+
+
+
+
+/* =============================
+     7.WE R HERE CSS CODES
+================================*/
+
+.bg {
+    background: url(../media/we-r-here@2x.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.we-r-here-bg .pading-y-84 {
+    padding-top: 5.25rem;
+    padding-bottom: 5.25rem;
+}
+
+
+.we-r-here-bg .pding-class {
+    margin-top: 2.063rem;
+}
+
+.we-r-here-bg .pding-class .h-3 {
+    margin-bottom: 1.844rem;
+}
+
+.we-r-here-bg .pding-class .p-1 {
+    margin-bottom: 3.469rem;
+}
+
+
+.we-r-here-bg .pding-class .btn-wrapper .button-1 {
+    padding: 14px 32px;
+}
+
+.we-r-here-bg .pding-class .btn-wrapper .button-1:hover {
+    color: #FF9C00;
+}
+
+.we-r-here-bg .right-img {
+    padding-right: 2%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* =============================
+     8.WORK WITH US CSS CODES
+================================*/
+#work-with-us {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+#work-with-us .mr-240 {
+    margin-right: 8.3333%;
+}
+
+#work-with-us .address-form-wrapper form {
+    position: relative;
+    width: 90%;
+}
+
+#work-with-us .address-form-wrapper form input {
+    width: 100%;
+    padding: 20px;
+    color: #525D6C;
+    background-color: #FAF9F7;
+    border: 1px solid #EDE5D9;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+#work-with-us .address-form-wrapper .submit-btn {
+    padding: 16px 35px;
+    border: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    outline: none;
+}
+
+#work-with-us .address-form-wrapper .submit-btn:hover {
+    color: #000;
+}
+
+
+
+
+/* =============================
+     9.LATEST PROJECT CSS CODES
+================================*/
+#latest-project {
+    padding: 90px 0;
+    background: url(../media/project\ bg@2x.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+
+#latest-project .card-txt .c-link {
+    font-weight: 500;
+    color: #FF9C00;
+    letter-spacing: 1px;
+}
+
+#latest-project .card-txt .c-link>i {
+    margin-left: 5px;
+}
+
+
+
+
+
+/* =============================
+     10.TESTIMONIAL CSS CODES
+================================*/
+#testimonial {
+    padding: 120px 0;
+}
+
+#testimonial .left-img {
+    display: flex;
+    align-items: center;
+}
+
+#testimonial .small-img {
+    position: absolute;
+    top: -15px;
+    left: -35px;
+    z-index: -30;
+}
+
+#testimonial .people {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#testimonial .people .controller {
+    margin-top: 30px;
+}
+
+#testimonial .people .controller .prev,
+.next {
+    width: 55px;
+    height: 55px;
+    border: 3px solid #1B498A;
+    border-radius: 50%;
+    margin-right: 30px;
+    text-align: center;
+    color: #FF9C00;
+    cursor: pointer;
+}
+
+#testimonial .people .controller .prev>i,
+.next>i {
+    padding: 15px 18px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* =============================
+     11.MEDIA PARTNER CSS CODES
+================================*/
+#partner {
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+/* =============================
+     12.FOOTER CSS CODES
+================================*/
+
+#footer {
+    background-color: #011021;
+    padding: 80px 0 40px;
+    color: #fff;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.p-18 {
+    margin-top: 18px;
+}
+
+#footer .ftr-form .h-3 {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+#footer .ftr-form form {
+    position: relative;
+    width: 85%;
+}
+
+#footer .ftr-form form input {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    outline: none;
+    border: none;
+}
+
+#footer .ftr-form form button {
+    background-color: #1B498A;
+    border-radius: 0 5px 5px 0;
+    padding: 20px 24px;
+    outline: none;
+    border: none;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#footer h6.h-3 {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#footer .f-menu ul {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#footer .f-menu ul li a {
+    text-transform: capitalize;
+    color: #A9B2BC;
+    font-family: 'HelveticaNeueRegular';
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: .3s linear;
+}
+
+#footer .f-menu ul li:hover a {
+    font-size: 13px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+    border-bottom: 1px solid #707070;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+
+
+/* =copyright menus= */
+#footer ul.left-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer ul.left-part li a {
+    font-family: 'HelveticaNeueRegular';
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #A9B2BC;
+    text-transform: none;
+}
+
+#footer ul.middle {
+    display: flex;
+    justify-content: center;
+}
+
+#footer ul.middle li {
+    margin-right: 20px;
+}
+
+#footer ul.middle li a {
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    color: #fff;
+}
+
+#footer ul.middle li a>i {
+    border-radius: 50%;
+    padding: 11px 11px;
+}
+
+#footer ul.middle li a>i.fa-facebook-f {
+    background-color: #3A5897;
+    padding: 11px 14px;
+}
+
+#footer ul.middle li a>i.fa-twitter {
+    background-color: #1DA0F1;
+}
+
+#footer ul.middle li a>i.fa-youtube {
+    background-color: #C4302B;
+}
+
+
+
+#footer .right p.cpy {
+    font-size: 14px;
+}
+
+#footer .right p.cpy>span {
+    color: #FF9C00;
+}
+
+
+
+
+
+
+/* =============================
+    13.RESPONSIVE CSS CODES
+================================*/
+
+
+
+
+/* =============================
+    FOR HEADER SECTION
+================================*/
+
+@media (max-width:991px) {
+    .navbar-links .m-links {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 16px 10px;
+    }
+
+    .navbar-links .navbar-button .button-1 {
+        padding: 10px 20px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    .navbar .navbar-links {
+        background-color: #2D619B;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar .navbar-links .navbar-button {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .navbar .navbar-links .navbar-button .button-1 {
+        width: 50%;
+    }
+
+    #header .navbar {
+        /* flex-direction: column; */
+        align-items: flex-start;
+    }
+
+    .brand-title {
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li .m-links {
+        padding: .5rem 0;
+        width: 100%;
+    }
+
+    .navbar-links li:hover .m-links {
+        color: #2D619B;
+        background-color: #fff;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+/* ========HERO PART OF HEADER======= */
+@media (max-width:991px) {
+    .hero-wrapper .hero-text-content .hero-heading {
+        font-size: 30px;
+    }
+
+    .hero-wrapper .hero-text-content {
+        padding-top: 40.372%;
+        padding-bottom: 64.075%;
+    }
+
+    .hero-wrapper .pt-108 {
+        padding-top: 20.474%;
+    }
+}
+
+@media (max-width:767px) {
+    .hero-wrapper .pt-108 {
+        display: none;
+    }
+}
+
+
+/* =============================
+    FOR OUR SERVICES SECTION
+================================*/
+@media (max-width:991px) {
+    #services .cards-wrapper .mr-48 {
+        margin-right: 1.5rem;
+    }
+
+    #services .cards-wrapper .ml-48 {
+        margin-left: 1.5rem;
+    }
+
+    #services .cards-wrapper .ml-24 {
+        margin-left: 0.75rem;
+    }
+
+    #services .cards-wrapper .mr-24 {
+        margin-right: 0.75rem;
+    }
+}
+
+@media (max-width:575px) {
+    #services .cards-wrapper .marl-0 {
+        margin-left: 0;
+    }
+
+    #services .cards-wrapper .mt-20 {
+        margin-top: 40px;
+    }
+}
+
+
+
+
+
+/* =============================
+    FOR WE R HERE SECTION
+================================*/
+
+@media (max-width:991px) {
+
+    .we-r-here-bg .pding-class .h-3 {
+        font-size: 25px;
+    }
+
+    .we-r-here-bg .pding-class .p-1 {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:767px) {
+    .we-r-here-bg .right-img {
+        display: none;
+    }
+
+    .we-r-here-bg .pding-class {
+        text-align: center;
+    }
+}
+
+
+
+/* =============================
+    FOR WORK WITH US SECTION
+================================*/
+@media(max-width:991px) {
+
+    #work-with-us .address-form-wrapper form {
+        width: 100%;
+    }
+
+    #work-with-us .address-form-wrapper .submit-btn {
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width:767px) {
+    #work-with-us .address-form-wrapper .submit-btn {
+        padding: 15px 35px;
+        border: none;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        outline: none;
+    }
+
+    #work-with-us .address-form-wrapper .submit-btn {
+        top: 4px;
+        right: 5px;
+    }
+}
+
+
+@media (max-width:420px) {
+    #work-with-us .address-form-wrapper form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #work-with-us .address-form-wrapper .submit-btn {
+        width: 50%;
+        position: static;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+/* =============================
+    FOR LATEST PROJECT SECTION
+================================*/
+
+@media(max-width:767px) {
+    #latest-project .mt-50 {
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+/* =============================
+    FOR TESTIMONIAL SECTION
+================================*/
+
+@media(max-width:991px) {
+    #testimonial .people {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #testimonial .people .h-4 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    #testimonial .people .p-1 {
+        font-size: 12px;
+    }
+
+    #testimonial .people .controller {
+        margin-top: 10px;
+    }
+
+    #testimonial .people .controller .prev,
+    .next {
+        width: 35px;
+        height: 36px;
+        border: 3px solid #1B498A;
+        border-radius: 50%;
+        margin-right: 15px;
+        text-align: center;
+        color: #FF9C00;
+        cursor: pointer;
+    }
+
+    #testimonial .people .controller .prev>i,
+    .next>i {
+        padding: 8px 8px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:577px) {
+    #testimonial {
+        display: none;
+    }
+}
+
+
+
+/* =============================
+    FOR MEDIA PARTNER SECTION
+================================*/
+
+@media(max-width:577px) {
+    #partner {
+        margin: 100px 0;
+    }
+}
+
+
+
+/* =============================
+    FOR FOOTER SECTION
+================================*/
+@media(min-width:768px) and (max-width:991px) {
+    #footer .ftr-form form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer .ftr-form form button {
+        position: static;
+        margin-top: 20px;
+        width: 40%;
+    }
+
+}
